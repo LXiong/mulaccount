@@ -1,0 +1,34 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">应用锁</string>
+    <string name="ivy_privacy_space_wait">稍等</string>
+    <string name="ivy_privacy_space_add_app">添加应用</string>
+    <string name="ivy_privacy_space_preparing">正打开应用</string>
+    <string name="ivy_privacy_space_admin">管理员</string>
+    <string name="ivy_privacy_space_add_password">密码</string>
+    <string name="ivy_privacy_space_optimize_app">正在优化新应用</string>
+    <string name="ivy_privacy_space_click_button_add_app">点击按钮添加应用</string>
+    <string name="ivy_privacy_space_got_it">明白了</string>
+	<string name="ivy_privacy_space_five_start_rating">我们承诺保护您手机隐私。您可以给我们五星好评吗？</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">邮箱</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">我想说...</string>
+    <string name="ivy_privacy_space_five_star_complain">投诉</string>
+    <string name="ivy_privacy_space_five_star_rating_button">五星</string>
+    <string name="ivy_privacy_space_question_button_submit">提交</string>
+    <string name="scan_result_five_inf">您的好评使我们更有动力做好应用锁</string>
+    <string name="scan_result_rate_bad">差评</string>
+    <string name="scan_result_rate_good">好评</string>
+    <string name="scan_result_rate_title">评价应用锁</string>
+    <string name="scan_result_rate_des">如果您喜欢我们的应用锁，请我们五星好评</string>
+    <string name="sidebar_rate">五星好评</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+

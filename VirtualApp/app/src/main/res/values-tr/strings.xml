@@ -1,0 +1,39 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">Lütfen bekle…</string>
+    <string name="ivy_privacy_space_add_app">App ekle</string>
+    <string name="ivy_privacy_space_preparing">Uygulamayı açılıyor</string>
+    <string name="ivy_privacy_space_admin">yönetim</string>
+    <string name="ivy_privacy_space_add_password">parola</string>
+    <string name="ivy_privacy_space_optimize_app">Yeni App Optimize...</string>
+    <string name="ivy_privacy_space_click_button_add_app">Uygulamayı eklemek için bu düğmeye tıklayın ~</string>
+    <string name="ivy_privacy_space_got_it">Anladım</string>
+	 <string name="ivy_privacy_space_five_start_rating">Biz gizliliğinizi korumayı taahhüt ediyoruz. Eğer bize 5-star-derecelendirme verebilir?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">E-posta</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">Söylemek istiyorum...</string>
+    <string name="ivy_privacy_space_five_star_complain">ŞİKAYET</string>
+    <string name="ivy_privacy_space_five_star_rating_button">Beş yıldız</string>
+    <string name="ivy_privacy_space_question_button_submit">Gönder</string>
+    <string name="scan_result_five_inf">Sizin övgü bize daha iyisini teşvik edecektir.</string>
+    <string name="scan_result_rate_bad">KÖTÜ</string>
+    <string name="scan_result_rate_good">İYİ</string>
+    <string name="scan_result_rate_title">Puan Applock</string>
+    <string name="scan_result_rate_des">Bize isterseniz, bize bir 5-star-derecelendirme verin.</string>
+    <string name="sidebar_rate">5-Yıldız-Değerlendirme</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

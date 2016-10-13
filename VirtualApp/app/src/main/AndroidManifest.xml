@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.virtualapp">
+
+    <application
+        android:name=".VApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ivy_privacy_space_launcher"
+        android:label="@string/ivy_privacy_space_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:label, android:theme, android:name">
+
+        <activity
+            android:name=".enter.EnterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".util.ListAppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppListTheme" />
+
+        <activity
+            android:name=".home.LoadingActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="va.task.loading"
+            android:theme="@style/TransparentTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+
+</manifest>

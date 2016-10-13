@@ -1,0 +1,34 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">お待ちください…</string>
+    <string name="ivy_privacy_space_add_app">アプリを追加</string>
+    <string name="ivy_privacy_space_preparing">アプリを開きます…</string>
+    <string name="ivy_privacy_space_admin">管理者</string>
+    <string name="ivy_privacy_space_add_password">パスワード</string>
+    <string name="ivy_privacy_space_optimize_app">新しいアプリケーションの最適化...</string>
+    <string name="ivy_privacy_space_click_button_add_app">アプリを追加するには、このボタンをクリックしてください〜</string>
+    <string name="ivy_privacy_space_got_it">わかる</string>
+	<string name="ivy_privacy_space_five_start_rating">私たちはあなたのプライバシーを保護することにコミットしています。あなたは私たち5つ星の評価を与えることができますか？</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">Eメール</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">私は言いたい...</string>
+    <string name="ivy_privacy_space_five_star_complain">文句を言います</string>
+    <string name="ivy_privacy_space_five_star_rating_button">五つ星</string>
+    <string name="ivy_privacy_space_question_button_submit">提出します</string>
+    <string name="scan_result_five_inf">あなたの賞賛は、私たちはもっとうまく奨励します。</string>
+    <string name="scan_result_rate_bad">悪い</string>
+    <string name="scan_result_rate_good">良い</string>
+    <string name="scan_result_rate_title">レートApplock</string>
+    <string name="scan_result_rate_des">あなたが私たちのような場合、私達に5つ星評価を与えてください。</string>
+    <string name="sidebar_rate">5-スター-評価</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+

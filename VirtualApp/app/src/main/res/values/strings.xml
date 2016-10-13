@@ -1,0 +1,23 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">Please wait…</string>
+    <string name="ivy_privacy_space_add_app">Add App</string>
+    <string name="ivy_privacy_space_preparing">Opening the app…</string>
+    <string name="ivy_privacy_space_admin">Admin</string>
+    <string name="ivy_privacy_space_add_password">password</string>
+    <string name="ivy_privacy_space_optimize_app">Optimizing new App...</string>
+    <string name="ivy_privacy_space_click_button_add_app">Click this button to add an App ~</string>
+    <string name="ivy_privacy_space_got_it">Got it</string>
+    <string name="ivy_privacy_space_five_start_rating">We are committed to protecting your privacy. Could you give us a 5-star-rating? </string>
+    <string name="ivy_privacy_space_scan_result_rate_email">Email</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">I want to say...</string>
+    <string name="ivy_privacy_space_five_star_complain">COMPLAIN</string>
+    <string name="ivy_privacy_space_five_star_rating_button">Five Star</string>
+    <string name="ivy_privacy_space_question_button_submit">Submit</string>
+    <string name="scan_result_five_inf">Your praise will encourage us do better.</string>
+    <string name="scan_result_rate_bad">BAD</string>
+    <string name="scan_result_rate_good">GOOD</string>
+    <string name="scan_result_rate_title">Rate Applock</string>
+    <string name="scan_result_rate_des">If you like us, please give us a 5-star-rating.</string>
+    <string name="sidebar_rate">5-Stars-Rating</string>
+</resources>

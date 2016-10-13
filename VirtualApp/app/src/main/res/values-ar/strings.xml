@@ -1,0 +1,33 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">قفل التطبيق</string>
+    <string name="ivy_privacy_space_wait">أرجو الإنتظار…</string>
+    <string name="ivy_privacy_space_add_app">إضافة التطبيقات</string>
+    <string name="ivy_privacy_space_preparing">فتح التطبيق ...</string>
+    <string name="ivy_privacy_space_admin">مشرف</string>
+    <string name="ivy_privacy_space_add_password">كلمه السر</string>
+    <string name="ivy_privacy_space_optimize_app">تحسين التطبيق الجديد ...</string>
+    <string name="ivy_privacy_space_click_button_add_app">انقر فوق هذا الزر لإضافة التطبيقات ~</string>
+    <string name="ivy_privacy_space_got_it">فهمتك</string>
+    <string name="ivy_privacy_space_five_start_rating">ونحن ملتزمون بحماية خصوصيتك. هل يمكن أن تعطينا-تصنيف 5 نجوم؟</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">البريد الإلكتروني</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">اريد ان اقول...</string>
+    <string name="ivy_privacy_space_five_star_complain">تذمر</string>
+    <string name="ivy_privacy_space_five_star_rating_button">خمسة نجوم</string>
+    <string name="ivy_privacy_space_question_button_submit">عرض</string>
+    <string name="scan_result_five_inf">سوف مديحك تشجعنا نفعل ما هو أفضل.</string>
+    <string name="scan_result_rate_bad">سيئة</string>
+    <string name="scan_result_rate_good">جيد</string>
+    <string name="scan_result_rate_title">معدل Applock</string>
+    <string name="scan_result_rate_des">إذا كنت تريد منا، يرجى اعطاءنا-تصنيف 5 نجوم.</string>
+    <string name="sidebar_rate">5 نجوم، التصويت</string>
+</resources>
+
+
+
+
+
+
+
+
+
+

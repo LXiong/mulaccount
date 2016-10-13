@@ -1,0 +1,34 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">โปรดรอ…</string>
+    <string name="ivy_privacy_space_add_app">เพิ่มแอพ</string>
+    <string name="ivy_privacy_space_preparing">เปิด app…</string>
+    <string name="ivy_privacy_space_admin">ผู้ดูแลระบบ</string>
+    <string name="ivy_privacy_space_add_password">รหัสผ่าน</string>
+    <string name="ivy_privacy_space_optimize_app">การเพิ่มประสิทธิภาพ App ใหม่ ...</string>
+    <string name="ivy_privacy_space_click_button_add_app">คลิกที่ปุ่มนี้เพื่อเพิ่ม App~</string>
+    <string name="ivy_privacy_space_got_it">ได้รับมัน</string>
+	 <string name="ivy_privacy_space_five_start_rating">เรามีความมุ่งมั่นที่จะปกป้องความเป็นส่วนตัวของคุณ คุณสามารถให้เรา 5 ดาวคะแนน?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">อีเมล์</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">ฉันต้องการพูด...</string>
+    <string name="ivy_privacy_space_five_star_complain">บ่น</string>
+    <string name="ivy_privacy_space_five_star_rating_button">โรงแรมระดับห้าดาว</string>
+    <string name="ivy_privacy_space_question_button_submit">เสนอ</string>
+    <string name="scan_result_five_inf">สรรเสริญของคุณจะให้เราทำดีกว่า</string>
+    <string name="scan_result_rate_bad">BAD</string>
+    <string name="scan_result_rate_good">ดี</string>
+    <string name="scan_result_rate_title">อัตรา applock</string>
+    <string name="scan_result_rate_des">หากคุณต้องการให้เราโปรดให้เรา 5 ดาวคะแนน</string>
+    <string name="sidebar_rate">5 ดาวเรตติ้ง</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+

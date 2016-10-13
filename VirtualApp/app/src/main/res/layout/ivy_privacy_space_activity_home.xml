@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivy_privacy_space_colorBg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="17dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ivy_privacy_space_app_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/click_btn"
+            android:padding="7dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ivy_privacy_space_lock_outline_black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/scan_result_icon"
+            style="@style/ScanResultIcon"
+            android:src="@drawable/scan_result_rate" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/ScanResultTitle"
+            android:text="@string/scan_result_rate_title" />
+
+        <TextView
+            android:id="@+id/scan_result_desc"
+            style="@style/ScanResultDesc"
+            android:layout_below="@id/title"
+            android:text="@string/scan_result_rate_des" />
+
+        <LinearLayout
+            android:id="@+id/rate_close"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal|center_vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rate_close" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/two_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scan_result_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rate_good"
+                android:layout_width="110dp"
+                android:layout_height="38dp"
+                android:background="@drawable/rate_good"
+                android:text="@string/scan_result_rate_good"
+                android:textColor="@color/white_87" />
+
+            <Button
+                android:id="@+id/rate_bad"
+                android:layout_width="110dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="34dp"
+                android:background="@drawable/rate_bad"
+                android:text="@string/scan_result_rate_bad"
+                android:textColor="@color/white_87" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_below="@id/two_button"></View>
+
+        <Button
+            android:id="@+id/scan_result_resolve"
+            android:layout_width="match_parent"
+            android:layout_height="104px"
+            android:fontFamily="sans-serif"
+            android:text="@string/sidebar_rate"
+            android:textColor="@color/scan_result_button_text"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <io.virtualapp.widgets.PagerView
+            android:id="@+id/home_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/pb_loading_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/tiaozhuan"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:id="@+id/layout_home_create_shortcut"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/home_create_shortcut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ivy_privacy_space_create_shortcut"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_home_fab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/home_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ivy_privacy_space_click_add_btn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivy_privacy_space_home_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ivy_privacy_space_crash"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

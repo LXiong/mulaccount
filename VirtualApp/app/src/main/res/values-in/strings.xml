@@ -1,0 +1,42 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">Mohon tunggu…</string>
+    <string name="ivy_privacy_space_add_app">Tambahkan App</string>
+    <string name="ivy_privacy_space_preparing">Membuka aplikasi...</string>
+    <string name="ivy_privacy_space_admin">Admin</string>
+    <string name="ivy_privacy_space_add_password">kata sandi</string>
+    <string name="ivy_privacy_space_optimize_app">Mengoptimalkan App baru...</string>
+    <string name="ivy_privacy_space_click_button_add_app">Klik tombol ini untuk menambahkan App~</string>
+    <string name="ivy_privacy_space_got_it">Mengerti</string>
+	<string name="ivy_privacy_space_five_start_rating">Kami berkomitmen untuk melindungi privasi Anda. Bisakah Anda memberi kami 5-bintang rating?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">E-mail</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">Saya ingin mengatakan...</string>
+    <string name="ivy_privacy_space_five_star_complain">MENGELUH</string>
+    <string name="ivy_privacy_space_five_star_rating_button">Bintang lima</string>
+    <string name="ivy_privacy_space_question_button_submit">Menyerahkan</string>
+    <string name="scan_result_five_inf">pujian Anda akan mendorong kita berbuat lebih baik.</string>
+    <string name="scan_result_rate_bad">BURUK</string>
+    <string name="scan_result_rate_good">BAIK</string>
+    <string name="scan_result_rate_title">tingkat AppLock</string>
+    <string name="scan_result_rate_des">Jika Anda ingin kami, tolong beri kami 5-bintang-rating.</string>
+    <string name="sidebar_rate">5-Bintang-Penilaian</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

@@ -1,0 +1,34 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">Xin vui lòng chờ...</string>
+    <string name="ivy_privacy_space_add_app">Thêm ứng dụng</string>
+    <string name="ivy_privacy_space_preparing">Mở ứng dụng…</string>
+    <string name="ivy_privacy_space_admin">quản trị viên</string>
+    <string name="ivy_privacy_space_add_password">mật khẩu</string>
+    <string name="ivy_privacy_space_optimize_app">Tối ưu hóa các ứng dụng mới...</string>
+    <string name="ivy_privacy_space_click_button_add_app">Nhấn vào nút này để thêm một ứng dụng~</string>
+    <string name="ivy_privacy_space_got_it">Hiểu rồi</string>
+	<string name="ivy_privacy_space_five_start_rating">Chúng tôi cam kết bảo vệ sự riêng tư của bạn. Ông có thể cho chúng ta một 5-sao-giá?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">Email</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">Tôi muốn nói rằng...</string>
+    <string name="ivy_privacy_space_five_star_complain">THAN PHIỀN</string>
+    <string name="ivy_privacy_space_five_star_rating_button">Năm sao</string>
+    <string name="ivy_privacy_space_question_button_submit">Submit</string>
+    <string name="scan_result_five_inf">lời khen ngợi của bạn sẽ khuyến khích chúng ta làm tốt hơn.</string>
+    <string name="scan_result_rate_bad">XẤU</string>
+    <string name="scan_result_rate_good">TỐT</string>
+    <string name="scan_result_rate_title">Tỷ AppLock</string>
+    <string name="scan_result_rate_des">Nếu bạn muốn chúng tôi, xin vui lòng cung cấp cho chúng ta một 5-sao-đánh giá.</string>
+    <string name="sidebar_rate">5-sao-Đánh giá</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+

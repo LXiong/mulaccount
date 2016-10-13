@@ -1,0 +1,160 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion COMPILE_SDK_VERSION as int
+    buildToolsVersion BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion MIN_SDK_VERSION as int
+        targetSdkVersion TARGET_SDK_VERSION as int
+        versionCode VERSION_CODE as int
+        versionName VERSION_NAME
+        buildConfigField "boolean", "PRINT_LOG", "true"
+        ndk {
+            abiFilters "armeabi", "x86"
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile file(RELEASE_STORE_FILE)
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+        }
+    }
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "PRINT_LOG", "true"
+            jniDebuggable true
+            minifyEnabled false
+            zipAlignEnabled false
+            multiDexEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+        }
+        release_test {
+            buildConfigField "boolean", "PRINT_LOG", "true"
+            jniDebuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //Zipalign优化
+            zipAlignEnabled true
+            multiDexEnabled false
+            // 移除无用的resource文件
+            shrinkResources true
+            signingConfig signingConfigs.release
+        }
+        release {
+            //混淆
+            buildConfigField "boolean", "PRINT_LOG", "false"
+            jniDebuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //Zipalign优化
+            zipAlignEnabled true
+            multiDexEnabled false
+            // 移除无用的resource文件
+            shrinkResources true
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    /** Rename output file names */
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            // 更改最终apk命名
+            String appName = project.name
+            String vCode = variant.versionCode
+            String vName = variant.versionName
+            String buildTypeName = variant.buildType.name
+            String flavorName = null
+            if (variant.productFlavors && !variant.productFlavors.isEmpty()) {
+                // productFlavors可能有多个维度，但现在实际用只会用1个维度，所以只取第一个flavorName
+                flavorName = variant.productFlavors[0]?.name
+            }
+            String apkFileName = "${appName}_${vCode}_${vName}.apk"
+            if (flavorName) { // 如果配置了productFlavors就加上flavorName
+                apkFileName = "${appName}_${flavorName}_${vCode}_${vName}.apk"
+            }
+            if (!apkFileName.contains(buildTypeName)) { // 如果apk文件名中没有buildType名称就在末尾加上
+                apkFileName = apkFileName.replace(".apk", "_${buildTypeName}.apk")
+            }
+            output.outputFile = new File(output.outputFile.parent, apkFileName)
+
+            // 打完混淆包后来干一些事情
+            if (variant.buildType.minifyEnabled) {
+                variant.assemble.doLast {
+                    // 定义文件拷贝方法
+                    def copyFile = { File source, File dest ->
+                        if (source.exists()) {
+                            dest.withDataOutputStream { os ->
+                                source.withDataInputStream { is ->
+                                    os << is
+                                }
+                            }
+                        }
+                    }
+                    // 混淆的mapping文件拷贝一份出来保存着
+                    File sourceMappingFile = new File("${output.outputFile.parentFile.parent}/mapping/${variant.dirName}/mapping.txt")
+                    File destMappingFile = new File(project.projectDir, "map.txt")
+                    copyFile(sourceMappingFile, destMappingFile)
+
+                    // 混淆的seeds文件拷贝一份出来保存着
+                    File sourceSeedsFile = new File("${output.outputFile.parentFile.parent}/mapping/${variant.dirName}/seeds.txt")
+                    File destSeedsFile = new File(project.projectDir, sourceSeedsFile.name)
+                    copyFile(sourceSeedsFile, destSeedsFile)
+
+                    // apk文件拷贝一份出来保存着
+                    File destTestDir = new File(rootDir.absolutePath + "/build/apk4test/")
+                    destTestDir.mkdirs()
+                    File destTestApkFile = new File(destTestDir, getDate() + "_" + apkFileName)
+                    copyFile(output.outputFile, destTestApkFile)
+                }
+            }
+        }
+    }
+}
+
+def getDate() {
+    def date = new Date()
+    def formattedDate = date.format('yyyyMMddHHmm')
+    return formattedDate
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //Android Lib
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    //compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    //compile 'com.android.support:percent:23.4.0'
+    //Promise Support
+    compile 'org.jdeferred:jdeferred-android-aar:1.2.4'
+    //Preference mark Support
+    compile 'com.jonathanfinerty.once:once:1.0.3'
+    //debugCompile 'com.github.moduth:blockcanary:1.0.2'
+    //releaseCompile 'com.github.moduth:blockcanary-no-op:1.0.2'
+    compile project(':lib')
+    compile project(':PagerSlidingTabStripLib')
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile 'com.github.castorflex.smoothprogressbar:library:1.1.0'
+    //compile 'com.yanzhenjie:recyclerview-swipe:1.0.1'
+    //compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.core:empty:1.0.0'
+    compile 'com.ivy.module:ivylocks:1.2.6'
+    compile 'com.ivy.module:loading:1.0.3'
+    compile 'com.ivy.module:ivyclean:1.1.1'
+}

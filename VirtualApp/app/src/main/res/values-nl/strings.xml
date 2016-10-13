@@ -1,0 +1,35 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">Even geduld aub…</string>
+    <string name="ivy_privacy_space_add_app">Voeg App</string>
+    <string name="ivy_privacy_space_preparing">Het openen van de app…</string>
+    <string name="ivy_privacy_space_admin">beheerder</string>
+    <string name="ivy_privacy_space_add_password">wachtwoord</string>
+    <string name="ivy_privacy_space_optimize_app">Het optimaliseren van nieuwe App...</string>
+    <string name="ivy_privacy_space_click_button_add_app">Klik op deze knop om een app toe te voegen~</string>
+    <string name="ivy_privacy_space_got_it">Begrepen</string>
+	<string name="ivy_privacy_space_five_start_rating">We zijn toegewijd aan het beschermen van uw privacy. Kunt u ons een 5-sterren-rating?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">E-mail</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">Ik wil zeggen...</string>
+    <string name="ivy_privacy_space_five_star_complain">KLAGEN</string>
+    <string name="ivy_privacy_space_five_star_rating_button">Vijf sterren</string>
+    <string name="ivy_privacy_space_question_button_submit">voorleggen</string>
+    <string name="scan_result_five_inf">Uw lof zal moedigen ons beter te doen.</string>
+    <string name="scan_result_rate_bad">SLECHT</string>
+    <string name="scan_result_rate_good">GOED</string>
+    <string name="scan_result_rate_title">rate Applock</string>
+    <string name="scan_result_rate_des">Als u ons wilt, geef ons dan een 5-sterren-rating.</string>
+    <string name="sidebar_rate">5-sterren-waardering</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+

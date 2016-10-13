@@ -1,0 +1,34 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">Пожалуйста, подождите…</string>
+    <string name="ivy_privacy_space_add_app">Добавить приложение</string>
+    <string name="ivy_privacy_space_preparing">Открытие приложения...</string>
+    <string name="ivy_privacy_space_admin">Администратор</string>
+    <string name="ivy_privacy_space_add_password">пароль</string>
+    <string name="ivy_privacy_space_optimize_app">Оптимизация нового приложения...</string>
+    <string name="ivy_privacy_space_click_button_add_app">Нажмите эту кнопку, чтобы добавить приложение~</string>
+    <string name="ivy_privacy_space_got_it">Понял</string>
+	<string name="ivy_privacy_space_five_start_rating">Мы стремимся защитить вашу личную жизнь. Не могли бы вы дать нам 5-звездочный рейтинг?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">Email</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">Я хочу сказать...</string>
+    <string name="ivy_privacy_space_five_star_complain">ЖАЛОВАТЬСЯ</string>
+    <string name="ivy_privacy_space_five_star_rating_button">Пятизвездочный</string>
+    <string name="ivy_privacy_space_question_button_submit">Отправить</string>
+    <string name="scan_result_five_inf">Ваша похвала будет побуждать нас делать лучше.</string>
+    <string name="scan_result_rate_bad">ПЛОХО</string>
+    <string name="scan_result_rate_good">ХОРОШО</string>
+    <string name="scan_result_rate_title">Оценить блокировка приложения</string>
+    <string name="scan_result_rate_des">Если вы любите нас, пожалуйста, дайте нам 5-звездочный рейтинг.</string>
+    <string name="sidebar_rate">5-Stars-Рейтинг</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+

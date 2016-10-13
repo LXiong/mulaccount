@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ivy_privacy_space_icon_bg">
+
+        <LinearLayout
+            android:id="@+id/layout_linlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/item_app_icon"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:scaleType="centerInside"
+                android:tag="ad_icon" />
+
+            <TextView
+                android:id="@+id/item_app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:tag="ad_title"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/record"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_below="@+id/layout_linlayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ivy_privacy_space_circle_blue"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <io.virtualapp.util.LabelView xmlns:lv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ad_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="1px"
+        android:layout_marginTop="1px"
+        android:visibility="gone"
+        lv:lv_background_color="@color/ivy_privacy_space_colorBg"
+        lv:lv_gravity="TOP_RIGHT"
+        lv:lv_text="AD"
+        lv:lv_text_size="9dp" />
+</FrameLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">잠시 기다려주십시오...</string>
+    <string name="ivy_privacy_space_add_app">앱 추가</string>
+    <string name="ivy_privacy_space_preparing">앱을 열면...</string>
+    <string name="ivy_privacy_space_admin">관리자</string>
+    <string name="ivy_privacy_space_add_password">암호</string>
+    <string name="ivy_privacy_space_optimize_app">새로운 응용 프로그램을 최적화...</string>
+    <string name="ivy_privacy_space_click_button_add_app">앱을 추가하려면이 버튼을 클릭 ~</string>
+    <string name="ivy_privacy_space_got_it">알았다</string>
+	<string name="ivy_privacy_space_five_start_rating">우리는 귀하의 개인 정보를 보호하기 위해 최선을 다하고 있습니다. 당신은 우리에게 5 성급 등급을 줄 수 있을까요?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">이메일</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">내가 말하고 싶은...</string>
+    <string name="ivy_privacy_space_five_star_complain">불평하다</string>
+    <string name="ivy_privacy_space_five_star_rating_button">별 다섯개</string>
+    <string name="ivy_privacy_space_question_button_submit">제출</string>
+    <string name="scan_result_five_inf">당신의 칭찬은 우리가 더 잘 할 격려 할 것이다.</string>
+    <string name="scan_result_rate_bad">나쁜</string>
+    <string name="scan_result_rate_good">좋은</string>
+    <string name="scan_result_rate_title">율 Applock</string>
+    <string name="scan_result_rate_des">당신이 우리를 좋아한다면, 우리에게 5 성급 등급을주지하시기 바랍니다.</string>
+    <string name="sidebar_rate">5 별 선호도</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

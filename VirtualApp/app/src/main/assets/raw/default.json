@@ -1,0 +1,101 @@
+{
+  "data": {
+    "default_pkg": [
+      {
+        "app": "Facebook",
+        "pkg": "com.facebook.katana"
+      },
+      {
+        "app": "Messenger",
+        "pkg": "com.facebook.orca"
+      },
+      {
+        "app": "WhatsApp",
+        "pkg": "com.whatsapp"
+      },
+      {
+        "app": "FacebookLite",
+        "pkg": "com.facebook.lite"
+      },
+      {
+        "app": "LINE",
+        "pkg": "jp.naver.line.android"
+      },
+      {
+        "app": "WeChat",
+        "pkg": "com.tencent.mm"
+      },
+      {
+        "app": "Snapchat",
+        "pkg": "com.snapchat.android"
+      },
+      {
+        "app": "Tumblr",
+        "pkg": "com.tumblr"
+      },
+      {
+        "app": "KakaoTalk",
+        "pkg": "com.kakao.talk"
+      },
+      {
+        "app": "Viber",
+        "pkg": "com.viber.voip"
+      },
+      {
+        "app": "imo",
+        "pkg": "com.imo.android.imoim"
+      },
+      {
+        "app": "Skype",
+        "pkg": "com.skype.raider"
+      },
+      {
+        "app": "Tango",
+        "pkg": "com.sgiggle.production"
+      },
+      {
+        "app": "Instagram",
+        "pkg": "com.instagram.android"
+      }
+    ],
+    "ad": [
+      {
+        "type": "cross",
+        "interval_time": 10000,
+        "data": [
+          {
+            "type": "native"
+          },
+          {
+            "type": "cross",
+            "img": "http://img5.imgtn.bdimg.com/it/u=2867136820,759482185&fm=206&gp=0.jpg",
+            "title": "交叉推广广告1",
+            "pkg": "com.tencent.mm"
+          },
+          {
+            "type": "cross",
+            "img": "http://img5.imgtn.bdimg.com/it/u=2239588265,4048397242&fm=206&gp=0.jpg",
+            "title": "交叉推广广告2",
+            "pkg": "com.whatsapp"
+          },
+          {
+            "type": "cross",
+            "img": "http://img0.imgtn.bdimg.com/it/u=697868005,890624693&fm=206&gp=0.jpg",
+            "title": "交叉推广广告3",
+            "pkg": "com.skype.raider"
+          }
+        ]
+      },
+      {
+        "type": "full",
+        "img": "http://img2.imgtn.bdimg.com/it/u=717905961,1555141619&fm=206&gp=0.jpg",
+        "title": "全屏广告"
+      },
+      {
+        "type": "clean",
+        "img": "http://img5.imgtn.bdimg.com/it/u=492801590,961300539&fm=206&gp=0.jpg",
+        "title": "火箭清理"
+      }
+    ]
+  }
+}

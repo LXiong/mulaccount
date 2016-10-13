@@ -1,0 +1,40 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">অনুগ্রহপূর্বক অপেক্ষা করুন…</string>
+    <string name="ivy_privacy_space_add_app">অ্যাপ যোগ</string>
+    <string name="ivy_privacy_space_preparing">অ্যাপ্লিকেশন খোলা হচ্ছে ...</string>
+    <string name="ivy_privacy_space_admin">অ্যাডমিন</string>
+    <string name="ivy_privacy_space_add_password">পাসওয়ার্ড</string>
+    <string name="ivy_privacy_space_optimize_app">নতুন অ্যাপ অপ্টিমাইজ ...</string>
+    <string name="ivy_privacy_space_click_button_add_app">একটি অ্যাপ যোগ করার জন্য এই বাটন ক্লিক করুন ~</string>
+    <string name="ivy_privacy_space_got_it">বুঝেছি</string>
+	<string name="ivy_privacy_space_five_start_rating">আমরা আপনার গোপনীয়তা রক্ষা করতে প্রতিশ্রুতিবদ্ধ. আপনি আমাদের একটি 5 তারকা রেটিং দিতে পারেন?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">ই-মেইল</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">আমি বলতে চাই...</string>
+    <string name="ivy_privacy_space_five_star_complain">অভিযোগ করা</string>
+    <string name="ivy_privacy_space_five_star_rating_button">পাঁচ তারকা</string>
+    <string name="ivy_privacy_space_question_button_submit">জমা দিন</string>
+    <string name="scan_result_five_inf">আপনার প্রশংসা আমাদের ভালো করতে উত্সাহিত করতে হবে.</string>
+    <string name="scan_result_rate_bad">খারাপ</string>
+    <string name="scan_result_rate_good">ভাল</string>
+    <string name="scan_result_rate_title">হার Applock</string>
+    <string name="scan_result_rate_des">আপনি আমাদের চাই, আমাদের একটি 5 তারকা রেটিং দিতে দয়া করে.</string>
+    <string name="sidebar_rate">5-তারার-রেটিং</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

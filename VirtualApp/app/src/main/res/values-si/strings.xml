@@ -1,0 +1,36 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">කරුණාකර රැඳී සිටින්න…</string>
+    <string name="ivy_privacy_space_add_app">යෙදුම් එකතු කරන්න</string>
+    <string name="ivy_privacy_space_preparing">යෙදුම විවෘත...</string>
+    <string name="ivy_privacy_space_admin">පරිපාලක</string>
+    <string name="ivy_privacy_space_add_password">මුරපදය</string>
+    <string name="ivy_privacy_space_optimize_app">නව යෙදුම්, උපරිම ප්රතිලාභ...</string>
+    <string name="ivy_privacy_space_click_button_add_app">ක යෙදුම ~ එක් කිරීමට මෙම බොත්තම ක්ලික් කරන්න~</string>
+    <string name="ivy_privacy_space_got_it">තේරුම් ගත්තා ද</string>
+	<string name="ivy_privacy_space_five_start_rating">අපි ඔබගේ පුද්ගලිකත්වය ආරක්ෂා කිරීමට කැප වී සිටිනවා. ඔබ අප 5-තරු ශ්රේණිගත දෙන්න?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">විද්යුත් තැපෑල</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">මට කියන්න ඕන...</string>
+    <string name="ivy_privacy_space_five_star_complain">පැමිණිලි</string>
+    <string name="ivy_privacy_space_five_star_rating_button">තරු පහේ</string>
+    <string name="ivy_privacy_space_question_button_submit">ඉදිරිපත්</string>
+    <string name="scan_result_five_inf">ඔබගේ ප්රශංසාව වඩා හොඳින් අප දිරිමත් කරනු ඇත.</string>
+    <string name="scan_result_rate_bad">නරක</string>
+    <string name="scan_result_rate_good">යහපත</string>
+    <string name="scan_result_rate_title">අනුපාතය Applock</string>
+    <string name="scan_result_rate_des">ඔබ අප කැමති නම්, අප 5-තරු ශ්රේණිගත දක්වන්න.</string>
+    <string name="sidebar_rate">5-තරු-ණය ශ්රේණිය</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+

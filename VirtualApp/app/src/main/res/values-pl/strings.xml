@@ -1,0 +1,35 @@
+<resources>
+    <string name="ivy_privacy_space_app_name">AppLock</string>
+    <string name="ivy_privacy_space_wait">Proszę czekać…</string>
+    <string name="ivy_privacy_space_add_app">Dodaj aplikację</string>
+    <string name="ivy_privacy_space_preparing">Otwieranie aplikacji</string>
+    <string name="ivy_privacy_space_admin">Admin</string>
+    <string name="ivy_privacy_space_add_password">hasło</string>
+    <string name="ivy_privacy_space_optimize_app">Optymalizacja nowa aplikacja...</string>
+    <string name="ivy_privacy_space_click_button_add_app">Kliknij ten przycisk, aby dodać aplikację~</string>
+    <string name="ivy_privacy_space_got_it">Rozumiem</string>
+	<string name="ivy_privacy_space_five_start_rating">Jesteśmy zobowiązani do ochrony prywatności. Mógłbyś dać nam 5-star-rating?</string>
+    <string name="ivy_privacy_space_scan_result_rate_email">E-mail</string>
+    <string name="ivy_privacy_space_scan_result_rate_bad_click">Chcę powiedzieć...</string>
+    <string name="ivy_privacy_space_five_star_complain">SKARŻYĆ SIĘ</string>
+    <string name="ivy_privacy_space_five_star_rating_button">Pięciogwiazdkowy</string>
+    <string name="ivy_privacy_space_question_button_submit">Zatwierdź</string>
+    <string name="scan_result_five_inf">Twoja chwała będzie zachęcać nas zrobić lepiej.</string>
+    <string name="scan_result_rate_bad">ZŁY</string>
+    <string name="scan_result_rate_good">DOBRY</string>
+    <string name="scan_result_rate_title">Oceń Applock</string>
+    <string name="scan_result_rate_des">Jeśli nam się podoba, proszę dać nam 5-star-rating.</string>
+    <string name="sidebar_rate">5-gwiazdek-Rating</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+

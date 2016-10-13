@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@drawable/ivy_privacy_space_five_rate_top">
+
+        <ImageButton
+            android:id="@+id/next_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ivy_privacy_space_five_star_popup_close_" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="sans-serif"
+            android:maxEms="18"
+            android:text="@string/ivy_privacy_space_five_start_rating"
+            android:textColor="@color/ivy_privacy_space_black_87"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/five_complaint"
+                android:layout_width="105dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/ivy_privacy_space_five_star_nexttime"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/ivy_privacy_space_five_star_complain"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:id="@+id/five_star_button"
+                android:layout_width="105dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/ivy_privacy_space_five_star_rating"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/ivy_privacy_space_five_star_rating_button"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
+
+
+
